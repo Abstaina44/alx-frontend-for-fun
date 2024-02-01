@@ -1,3 +1,5 @@
+
+
 /* SUMMARY
     1. GLOBAL
     2. LAYOUT
@@ -646,34 +648,34 @@
     content: "";
   }
 
-/*** FORM ***/
+
+  /*** FORM ***/
 /* Comment section
     ============================= */
 
-    .post-comments {
+    .post-comments{
         width: 80%;
         margin: 10rem 0 0 auto;
         padding-left: 7rem;
-      }
-      
-      .post-comments .section-title {
+    }
+
+    .post-comments .section-title{
         font-variant: small-caps;
-      }
-      
-      /* Basic form
-          ============================= */
-      
-      form {
+    }
+
+    /* Basic form
+    ============================= */
+    form {
         display: flex;
         flex-direction: column;
         padding: 1rem 0;
         margin: 0;
-      }
+    }
 
-      fieldset {
+    fieldset{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         border: none;
         padding: 0 0 2rem;
-      }
+    }
